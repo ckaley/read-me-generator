@@ -1,4 +1,4 @@
-function generateMarkdown(data) {
+function generateMarkdown(data, picture, email) {
   return `
 # ${data.title}
   
@@ -37,7 +37,11 @@ ${data.tests}
 
 ${data.questions}
 
+# Additional Information
+Author of Program: <img src="${picture}"
+alt="Program Auther Image"/>
 
+Email: ${email}
 `;
 }
 

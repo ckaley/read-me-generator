@@ -2,6 +2,8 @@ const fs = require("fs");
 const axios = require("axios");
 const inquirer = require("inquirer");
 const mdGen = require("./utils/generateMarkdown");
+let picture;
+let email;
 
 const questions = [{
   type: "input",
@@ -64,19 +66,20 @@ inquirer
     const queryUrl = `https://api.github.com/users/${answers.username}`;
 
     axios.get(queryUrl).then(function (res) {
-      let email;
       if (res.data.email = "null") {
         email = "No Email Address Provided on Profile"
       } else {
         email = res.data.email;
       }
-      const picture = res.data.avatar_url;
-      console.log(email);
-      console.log(picture);
+      picture = res.data.avatar_url;
+
       return answers;
     }).then(function (answers) {
 
-      fs.writeFile("README-CAK.md", mdGen.generateMarkdown(answers), function (err) {
+      console.log(email);
+      console.log(picture);
+
+      fs.writeFile("README-CAK.md", mdGen.generateMarkdown(answers, picture, email), function (err) {
         if (err) {
           throw err;
         }

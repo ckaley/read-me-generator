@@ -1,7 +1,7 @@
 
-# Project Test Example
+# Test Project
   
-fhadsghsfgjsf
+fgadfhadfhad
 
 # Table of Contents
 
@@ -14,11 +14,11 @@ fhadsghsfgjsf
 
 # Installation
 
-jsgfjsfgjsfg
+afdhadfhadfh
 
 # Usage
 
-gfjsfgjsfgj
+afdhadfhhadf
 
 # License
 
@@ -26,14 +26,18 @@ Apache
 
 # Contributing
 
-jsfgjjsfgjsfg
+adfhadfhadfhad
 
 # Tests
 
-gjsfgsgf
+adfhadfhhadf
 
 # Questions
 
-jgfsjsfgs
+fadhadfhadf
 
+# Additional Information
+Author of Program: <img src="https://avatars0.githubusercontent.com/u/59455539?v=4"
+alt="Program Auther Image"/>
 
+Email: No Email Address Provided on Profile
