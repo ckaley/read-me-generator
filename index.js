@@ -76,7 +76,7 @@ inquirer
       return answers;
     }).then(function (answers) {
 
-      fs.writeFile("README.CAK", mdGen.generateMarkdown(answers), function (err) {
+      fs.writeFile("README-CAK.md", mdGen.generateMarkdown(answers), function (err) {
         if (err) {
           throw err;
         }
