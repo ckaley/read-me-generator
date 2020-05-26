@@ -76,10 +76,7 @@ inquirer
       return answers;
     }).then(function (answers) {
 
-      console.log(email);
-      console.log(picture);
-
-      fs.writeFile("README-CAK.md", mdGen.generateMarkdown(answers, picture, email), function (err) {
+      fs.writeFile("README-TEMP.md", mdGen.generateMarkdown(answers, picture, email), function (err) {
         if (err) {
           throw err;
         }

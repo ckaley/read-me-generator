@@ -1,8 +1,7 @@
-function generateMarkdown(data, picture, email) {
-  return `
-# ${data.title}
+
+# Testing Badges
   
-${data.description}
+sadfgadfhadf
 
 # Badges
 
@@ -20,38 +19,29 @@ ${data.description}
 
 # Installation
 
-${data.installation}
+fhadfhgadfhafd
 
 # Usage
 
-${data.usage}
+fdhadfhadf
 
 # License
 
-${data.license}
+Apache
 
 # Contributing
 
-${data.contributing}
+hadfhadfhadf
 
 # Tests
 
-${data.tests}
+fdhadfhadf
 
 # Questions
 
-${data.questions}
+fdhadfhadf
 
 # Author Information
- <img src="${picture}" alt="Program Auther Image"/>
+ <img src="https://avatars0.githubusercontent.com/u/59455539?v=4" alt="Program Auther Image"/>
 
-Email: ${email}
-`;
-}
-
-
-module.exports = {
-  generateMarkdown: generateMarkdown
-};
-
-
+Email: No Email Address Provided on Profile
