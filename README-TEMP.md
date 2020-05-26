@@ -1,7 +1,7 @@
 
-# Testing Badges
+# ReadME.md File Generator
   
-sadfgadfhadf
+This program takes input from the user and generates a README.md file using Markdown formatting
 
 # Badges
 
@@ -19,27 +19,27 @@ sadfgadfhadf
 
 # Installation
 
-fhadfhgadfhafd
+The install is straight forward, by cloning the project and then simply running the cammand "node index.js"
 
 # Usage
 
-fdhadfhadf
+Once installed, you execute the program by running "node index.js"
 
 # License
 
-Apache
+MIT
 
 # Contributing
 
-hadfhadfhadf
+To contribute to this project is done simply by providng craft beer to the author
 
 # Tests
 
-fdhadfhadf
+Runnign the program and providing various input will result in output of a README-TEMP.md file that can be examined for completeness
 
 # Questions
 
-fdhadfhadf
+No questions at this time
 
 # Author Information
  <img src="https://avatars0.githubusercontent.com/u/59455539?v=4" alt="Program Auther Image"/>

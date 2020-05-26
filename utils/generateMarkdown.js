@@ -1,3 +1,6 @@
+//function to generate the README.md file.  The format of the file is defined 
+// with the parameters passed in to populate the dynamic data
+
 function generateMarkdown(data, picture, email) {
   return `
 # ${data.title}
@@ -49,7 +52,7 @@ Email: ${email}
 `;
 }
 
-
+// export so this will can be included in other programs
 module.exports = {
   generateMarkdown: generateMarkdown
 };
